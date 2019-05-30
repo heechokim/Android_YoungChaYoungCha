@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearlayout_left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="버튼 1"/>
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="버튼2"/>
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="버튼3"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/framelayout_right"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+    </FrameLayout>
+
+</LinearLayout>
+
+<!--프래그먼트로 리사이클러뷰 교체하기 샘플 코드
+    1. implementation 'com.android.support:recyclerview-v7:28.0.0' 라이브러리를 추가한다.
+    2. activity_main.xml 에서 fragment로 채울 영역을 작성해준다.(FrameLayout사용)
+    3. fragment 를 구성할 xml 을 3개 작성한다. (새로운 layout파일 추가 : fragment_right1.xml)
+    4. 리스트의 아이템 xml 을 작성한다. (새로운 layout파일 추가 : item.xml)
+    5. Data 클래스를 생성한다.
+    6. Adapter 클래스를 생성한다.
+    7. Fragment 상속받은 자바 파일을 3개 작성한다.
+
+    5. MainActivity.java 파일을 작성한다.
+    -->
