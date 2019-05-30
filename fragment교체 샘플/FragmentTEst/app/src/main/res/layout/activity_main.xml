@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearlayout_left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="버튼 1"/>
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="버튼2"/>
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="버튼3"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/framelayout_right"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+    </FrameLayout>
+
+</LinearLayout>
+
+<!--프레임 레이아웃 교체하기 샘플 코드
+
+    1. activity_main.xml 에서 fragment로 채울 영역을 작성해준다.(FrameLayout사용)
+    2. fragment 를 구성할 xml 을 3개 작성한다. (새로운 layout파일 추가 : fragment_right1.xml)
+    3. Fragment 상속받은 자바 파일을 3개 작성한다.
+    4. MainActivity.java 파일을 작성한다.
+    -->
