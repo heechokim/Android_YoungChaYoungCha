@@ -60,7 +60,7 @@ Firebase에 대해서 간단하게 알아보려면 [여기](https://choheeis.git
 
     3번까지 했더니 오류가 떴다.. 구글링을 엄청 해서 [여기](https://developer.android.com/jetpack/androidx/migrate) 라는 사이트에 나와있는대로 두 가지 속성을 true로 추가해줬더니 해결되었다!
     
-        <br>
+    <br>
 
     > 여기까지 해서 안드로이드 프로젝트과 Firebase를 연동시키는 작업을 끝냈다!
 
