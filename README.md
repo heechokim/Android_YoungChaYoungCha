@@ -63,4 +63,12 @@ Firebase에 대해서 간단하게 알아보려면 [여기](https://choheeis.git
     <br>
 
     > 여기까지 해서 안드로이드 프로젝트과 Firebase를 연동시키는 작업을 끝냈다!
+    
+    <br>
+
+## FlutterCodelab
+
+💁 07/27 GDG Campus Korea에서 주최한 Try! Flutter세미나에 참가하여 실습해본 Flutter 코드랩 프로젝트
+
+[코드랩1](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt1/index.html?index=..%2F..index#1) 과 [코드랩2](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2/index.html?index=..%2F..index#0) 을 따라해보았다.
 
