@@ -9,6 +9,13 @@
             "UnauthRoleName": "awsamplifybuild-master-20191006013520-unauthRole",
             "StackName": "awsamplifybuild-master-20191006013520",
             "StackId": "arn:aws:cloudformation:ap-northeast-2:071084425521:stack/awsamplifybuild-master-20191006013520/24821d30-e78e-11e9-a919-0a86bceb3baa"
+        },
+        "categories": {
+            "auth": {
+                "awsamplifybuildc8de9e59": {
+                    "hostedUIProviderCreds": "[]"
+                }
+            }
         }
     }
 }
