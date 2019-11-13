@@ -8,7 +8,7 @@
 
 💁 리드미 --> [여기](https://github.com/choheeis/Android_YoungChaYoungCha/blob/master/%EB%A6%AC%EB%93%9C%EB%AF%B8Collection/ThisisRecyclerView%EC%97%90%20%EB%8C%80%ED%95%9C%20%EB%A6%AC%EB%93%9C%EB%AF%B8~.md)
 
-![ThisisRecyclerView](.gif/ThisisRecyclerView.gif)
+![ThisisRecyclerView](.resource/gif/ThisisRecyclerView.gif)
 
 <br>
 
