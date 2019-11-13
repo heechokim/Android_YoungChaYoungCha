@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">AWSFacebookLogin</string>
+    <string name="facebook_app_id">480097852577043</string>
+    <string name="fb_login_protocol_scheme">fb480097852577043</string>
+
 </resources>

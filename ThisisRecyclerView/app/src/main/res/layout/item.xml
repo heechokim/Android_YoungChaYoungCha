@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="162dp"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+            android:id="@+id/tv_ITEM_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SoptStagram"
+            android:textSize="25sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+    />
+    <TextView
+            android:id="@+id/tv_ITEM_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IT 창업 동아리 SOPT 안드로이드 교육 프로젝트"
+            app:layout_constraintTop_toBottomOf="@+id/tv_ITEM_name"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+    />
+    <ImageView
+            android:id="@+id/iv_ITEM_colorBox"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="#EB6464"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+    />
+    <TextView
+            android:id="@+id/tv_ITEM_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kotlin"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/iv_ITEM_colorBox"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="8dp"
+
+    />
+    <View
+            android:id="@+id/v_ITEM_bar"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#CAC6C6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+    />
+</androidx.constraintlayout.widget.ConstraintLayout>
