@@ -1,4 +1,4 @@
-# 초희 표 Android 개발 라이브러리
+# 🌷 초희 표 Android 개발 라이브러리 🌷
 
 <br>
 
@@ -6,7 +6,10 @@
 
 💁 리사이클러뷰 만드는 라이브러리
 
-💁 리드미 --> [https://github.com/choheeis/Android_YoungChaYoungCha/blob/master/%EB%A6%AC%EB%93%9C%EB%AF%B8Collection/ThisisRecyclerView%EC%97%90%20%EB%8C%80%ED%95%9C%20%EB%A6%AC%EB%93%9C%EB%AF%B8~.md
+💁 리드미 --> [여기](https://github.com/choheeis/Android_YoungChaYoungCha/blob/master/%EB%A6%AC%EB%93%9C%EB%AF%B8Collection/ThisisRecyclerView%EC%97%90%20%EB%8C%80%ED%95%9C%20%EB%A6%AC%EB%93%9C%EB%AF%B8~.md)
+
+<br>
+
 ## WebView
 
 💁 06/25 코틀린으로 간단한 웹뷰를 띄워보는 프로젝트 ( 블로그 사이트를 띄웠다. )
