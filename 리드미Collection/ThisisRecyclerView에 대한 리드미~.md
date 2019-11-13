@@ -23,13 +23,9 @@
 
     6. RecyclerView 배치하기
 
-    7. RecyclerView와 Adapter 연결하기
+    7. RecyclerView 초기화 하기
 
-    8. item들 배치 모양을 LayoutManager을 통해 설정하기
-
-    9. adapter 데이터 갱신하기
-
-    10. 끝~~!!
+    8. 끝~~!!
 
 <br>
 
@@ -39,7 +35,7 @@
 
 - _1단계 - 리사이클러뷰 라이브러리 import 하기_
 
-    ![09](https://user-images.githubusercontent.com/31889335/67953461-874c4e00-fc32-11e9-8b90-d6e67bd26f99.PNG)
+    ![09](https://user-images.githubusercontent.com/31889335/68743989-fb292600-0636-11ea-9b46-dcb487420d95.PNG)
 
     이 그림처럼 리사이클러뷰를 제공해주는 라이브러리를 build.gradle(Module: app) 파일에 추가해주면 된다.
 
@@ -47,7 +43,7 @@
 
 - _2단계 - item 한 개의 UI의 layout 파일 만들기_
 
-    ![10](https://user-images.githubusercontent.com/31889335/67955179-849f2800-fc35-11e9-9a47-1967357d5ecd.PNG)
+    ![10](https://user-images.githubusercontent.com/31889335/68743990-fb292600-0636-11ea-9d00-04c2315810e1.PNG)
 
     이와 같이 리사이클러뷰에서 사용할 item 에 대한 디자인을 xml 코드로 작성하면 된다! (이 프로젝트의 item.xml 파일 참고)
 
@@ -69,12 +65,12 @@
 
     __그 다음, 뷰 홀더 클래스는 1단계에서 추가한 RecyclerView 라이브러리의 ViewHolder 를 상속받아야 한다!__
 
-    ![11](https://user-images.githubusercontent.com/31889335/68737867-1476a600-0628-11ea-9ff6-0b8f10aad2ef.PNG)
+    ![11](https://user-images.githubusercontent.com/31889335/68743992-fb292600-0636-11ea-9b1f-026be38b2c5a.PNG)
 
 
     상속을 받았다면 이제 View 안의 요소들을 붙잡고 있을 수 있도록 View 안의 요소들을 클래스 내부에 선언해주자! 이 때 말하는 View는 item 뷰이다.
 
-    ![12](https://user-images.githubusercontent.com/31889335/68737918-3bcd7300-0628-11ea-9372-1225adb3256b.PNG)
+    ![12](https://user-images.githubusercontent.com/31889335/68743994-fb292600-0636-11ea-99df-28b6e012bf2a.PNG)
 
 
     일단 3단계는 여기까지 하고 4단계로 넘어간 후, 다시 돌아와서 마저 클래스를 작성하자!
@@ -85,7 +81,7 @@
 
     이제 item에 들어갈 데이터들을 정의하는 클래스를 만들 차례이다.
 
-    ![13](https://user-images.githubusercontent.com/31889335/68743235-5823dc80-0635-11ea-9a27-45160b0e75aa.PNG)
+    ![13](https://user-images.githubusercontent.com/31889335/68743996-fbc1bc80-0636-11ea-8ce6-a7176b18a8c9.PNG)
 
 
     데이터 클래스를 만들 때는 코틀린에서 지원하는 __data class__ 라는 키워드를 사용하면 된다.
@@ -102,7 +98,7 @@
 
     4단계에서 만든 data class를 매개변수로 갖는 bind 라는 함수를 구현해줌으로써 실제 데이터를 ViewHolder가 붙잡고 있는 요소들에 연결시켜 준다.
 
-    ![14](https://user-images.githubusercontent.com/31889335/68737962-5a336e80-0628-11ea-8a14-731f5db805d1.PNG)
+    ![14](https://user-images.githubusercontent.com/31889335/68743997-fbc1bc80-0636-11ea-8b32-33cd97874dd1.PNG)
 
 
     <br>
@@ -131,13 +127,13 @@
     
     이 때, \<ViewHolder> 을 작성해줘서 해당 어댑터 클래스가 데이터를 item 뷰에 그려줄 때 어떤 ViewHolder를 참조해서 그려줘야 하는지를 알려줘야 한다.
 
-    ![image](https://user-images.githubusercontent.com/31889335/68736689-af6d8100-0624-11ea-9e20-712c1c568d0d.png)
+    ![15](https://user-images.githubusercontent.com/31889335/68743999-fbc1bc80-0636-11ea-9889-10a45f8176aa.PNG)
 
     이렇게 RecyclerView.Adapter을 상속받으면 class Adapter부분에 빨간 밑줄이 그어지는데 추가적인 멤버 함수들을 상속받아야 한다는 의미이다. 
 
     따라서, 멤버 함수들을 상속받으면 다음과 같은 Adapter 클래스 구조가 생성되게 된다!
 
-    ![16](https://user-images.githubusercontent.com/31889335/68736863-328ed700-0625-11ea-95a6-ecb8e1c1987e.PNG)
+    ![16](https://user-images.githubusercontent.com/31889335/68744000-fc5a5300-0636-11ea-810a-14244c07543d.PNG)
 
     추가된 멤버 함수는 __onCreateViewHolder()__, __getItemCount()__, __onBindViewHolder()__ 이다.
 
@@ -147,7 +143,7 @@
 
     따라서, 데이터를 가지고 있는 변수를 Adapter클래스 안에 선언해주어야 한다.
 
-    ![17](https://user-images.githubusercontent.com/31889335/68737239-3111de80-0626-11ea-98cc-fee4aa5bd168.PNG)
+    ![17](https://user-images.githubusercontent.com/31889335/68744001-fc5a5300-0636-11ea-84a5-494dc005b204.PNG)
 
     이렇게 Adapter 클래스의 멤버 변수로 data라는 변수를 선언하고, 이 변수는 4단계에서 만들었던 데이터 클래스를 객체로 갖는 배열이 되게 된다.
 
@@ -163,7 +159,7 @@
 
     따라서, Adapter에서 ViewHolder와 item 뷰 레이아웃 파일을 연결해줘야 하고, 이 역할을 onCreateViewHolder가 담당하는 것이다. 
 
-    ![18](https://user-images.githubusercontent.com/31889335/68738024-80590e80-0628-11ea-8767-9f2240b74329.PNG)
+    ![18](https://user-images.githubusercontent.com/31889335/68744002-fc5a5300-0636-11ea-9e08-16bc6005afc5.PNG)
 
     이렇게 LayoutInflater을 이용하여 ViewHolder와 item 뷰 레이아웃 파일을 연결시켜준 후, ViewHolder를 리턴시켜준다. 
 
@@ -177,7 +173,7 @@
 
     onBindViewHolder() 메소드는 적절한 데이터를 가져와서 ViewHolder에 연결된 item 레이아웃에 데이터를 채워주는 역할을 한다. 
 
-    ![19](https://user-images.githubusercontent.com/31889335/68738566-fe69e500-0629-11ea-909a-50647190b582.PNG)
+    ![19](https://user-images.githubusercontent.com/31889335/68744004-fc5a5300-0636-11ea-9444-17b08e2b8ba8.PNG)
 
     layout manager는 onBindViewHolder() 메소드를 호출한 다음, RecyclerView안에서의 ViewHolder position을 다음 position으로 이동시킨다.
 
@@ -189,7 +185,7 @@
 
     따라서, getItemCount() 메소드는 Adapter에게 전체 아이템 갯수를 알려주는 역할을 한다.
 
-    ![20](https://user-images.githubusercontent.com/31889335/68738745-746e4c00-062a-11ea-8816-f4d9cd97ea28.PNG)
+    ![20](https://user-images.githubusercontent.com/31889335/68744005-fcf2e980-0636-11ea-9c21-0c5767f7509e.PNG)
 
     <br>
 
@@ -201,29 +197,37 @@
 
     일단, RecyclerView를 배치할 xml 파일의 적절한 위치에 RecyclerView를 배치해준다.
 
-    ![21](https://user-images.githubusercontent.com/31889335/68739087-59500c00-062b-11ea-97dc-f15ff5661ebd.PNG)
+    ![21](https://user-images.githubusercontent.com/31889335/68744006-fcf2e980-0636-11ea-9ec4-fe067eed0546.PNG)
 
     위 코드처럼 activity_main.xml을 꽉 채우도록 RecyclerView를 배치하였다.
 
     <br>
 
+- _7단계 - RecyclerView 초기화 하기_
+
     RecyclerView를 레이아웃 파일에 배치한 다음, MainActivity 클래스에서 이 RecyclerView를 선언해주어야 한다. 
 
-    ![22](https://user-images.githubusercontent.com/31889335/68739257-bf3c9380-062b-11ea-99c1-46c217240dcd.PNG)
+    ![22](https://user-images.githubusercontent.com/31889335/68744007-fcf2e980-0636-11ea-984f-94e2f25ecfcb.PNG)
 
     그 다음, RecyclerView를 초기화 하는 함수를 만들어 이 함수 안에 RecyclerView에 관한 여러가지 변수를 초기화 해주자!
 
-    ![23](https://user-images.githubusercontent.com/31889335/68739486-4853ca80-062c-11ea-95b4-1d9a32b3c10d.PNG)
+    ![23](https://user-images.githubusercontent.com/31889335/68743985-fa908f80-0636-11ea-8cb4-63392399f04f.PNG)
 
     이 초기화 함수 안에서는 activity_main.xml 안에 배치한 RecyclerView의 Adapter를 설정해주고, Layoutmanager도 설정해주어야 한다.
 
     또한, RecyclerView에서 사용될 실제 데이터를 이 함수 안에서 다뤄줘야 한다.
 
-    ![24](https://user-images.githubusercontent.com/31889335/68741187-57d51280-0630-11ea-9a36-d12b2138fb4c.PNG)
+    ![24](https://user-images.githubusercontent.com/31889335/68743988-fa908f80-0636-11ea-803c-43d10177a33a.PNG)
 
     Adapter에 데이터를 넣어주었으면 데이터가 변경되었으니 다시 그려달라고 알려야 하는데 RecyclerView.Adapter 클래스의 멤버 함수인 __notifyItemChanged()__ 를 호출해줌으로써 알릴 수 있다.
     
     이 함수가 호출되면 Layout manager는 업데이트 되어야 하는 데이터를 View Holder에 다시 연결시켜준다. 
+
+    <br>
+
+    😆😆😆😆😆😆😆😆😆😆😆 리사이클러뷰 완성 😆😆😆😆😆😆😆😆😆😆😆
+
+
 
 
     
