@@ -215,7 +215,11 @@
 
     이 초기화 함수 안에서는 activity_main.xml 안에 배치한 RecyclerView의 Adapter를 설정해주고, Layoutmanager도 설정해주어야 한다.
 
-    또한, RecyclerView에서 사용될 실제 데이터를 이 함수 안에서 다뤄줘야 한다.
+    만약, 리사이클러뷰의 방향이 수평방향(Horizontal)이라면 리사이클러뷰의 LayoutManager를 다음과 같이 세팅해주면 된다!
+
+    ![25](https://user-images.githubusercontent.com/31889335/69031509-99ddca00-0a1d-11ea-959e-e9128d65c34d.PNG)
+
+    또한, RecyclerView에서 사용될 실제 데이터를 이 initRecyclerView 함수 안에서 다뤄줘야 한다.
 
     ![24](https://user-images.githubusercontent.com/31889335/68743988-fa908f80-0636-11ea-803c-43d10177a33a.PNG)
 
