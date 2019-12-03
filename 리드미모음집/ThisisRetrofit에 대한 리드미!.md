@@ -354,6 +354,9 @@ Retrofit은 안드로이드 http RESTful API를 자바(or 코틀린) 인터페�
 
     이렇게 Call 객체를 생성한 후, enqueue라는 메소드를 호출하여 Call의 비동기 작업이 끝났을 때 동작할 Callback 을 작성해주면 된다. 코드의 onResponse 함수 내의 TODO 자리에 Callback 을 등록하면 된다!
 
+    <br>
+
+    💻💻💻 이렇게까지 하면 통신 끝!!!!!!!! 어서 빌드 해보자!!!!!! 💻💻💻
 
 
 
