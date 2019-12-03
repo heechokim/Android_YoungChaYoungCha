@@ -70,15 +70,7 @@ Retrofit은 안드로이드 http RESTful API를 자바(or 코틀린) 인터페�
 
     위 화면은 choheeis 라는 github 계정을 가진 유저의 repository 목록과 이에 대한 간단한 정보들을 나타내는 화면이다.
 
-    위 화면에서 필요한 정보들을 생각해보면
-
-    __계정이름(닉네임)__
-
-    __이름__
-
-    __자기소개__
-
-    __프로필 이미지__
+    위 화면에서 repository list에 필요한 정보들을 생각해보면
 
     __repository 제목__
 
