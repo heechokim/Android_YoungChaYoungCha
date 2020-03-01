@@ -26,6 +26,24 @@
 
 ![viewpager](./resource/gif/viewpager.gif)
 
+<br>
+
+## 💚 Bottom Navigation
+
+--> [Bottom Navigation 만드는 나만의 라이브러리](https://choheeis.github.io/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C/2020/03/01/BottomNavigation.html)
+
+![BottomNavigation](./resource/gif/BottomNavigation.gif)
+
+<br>
+
+## 💙 Bottom Navigation과 ViewPager 연결하여 슬라이드되는 Bottom Navigation Bar 만들기
+
+--> [슬라이드되는 Bottom Navigation Bar 만드는 라이브러리](https://choheeis.github.io/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C/2020/03/01/BottomNavigationSwipe.html)
+
+![BottomNavigationWithViewPager](./resource/gif/BottomNavigationWithViewPager.gif)
+
+<br>
+
 ## WebView
 
 💁 06/25 코틀린으로 간단한 웹뷰를 띄워보는 프로젝트 ( 블로그 사이트를 띄웠다. )
