@@ -20,14 +20,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // 3. myPager 변수에 xml에 작성한 viewPager 대입
-        myPager = findViewById(R.id.viewPager)
+    // 3. myPager 변수에 xml에 작성한 viewPager 대입
+    myPager = findViewById(R.id.viewPager)
 
-        // 5. pagerAdapter 변수에 Adapter 클래스 대입
-        val pagerAdapter: PagerAdapter = ViewPagerAdapter(supportFragmentManager)
-        myPager.adapter = pagerAdapter
+    // 5. pagerAdapter 변수에 Adapter 클래스 대입
+    val pagerAdapter: PagerAdapter = ViewPagerAdapter(supportFragmentManager)
+    myPager.adapter = pagerAdapter
 
-    }
+}
 
     // 6. 뒤로가기 버튼 클릭시 해줄 것들 추가 세팅
     override fun onBackPressed() {
