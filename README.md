@@ -38,9 +38,17 @@
 
 ## 💙 Bottom Navigation과 ViewPager 연결하여 슬라이드되는 Bottom Navigation Bar 만들기
 
---> [슬라이드되는 Bottom Navigation Bar 만드는 라이브러리](https://choheeis.github.io/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C/2020/03/01/BottomNavigationSwipe.html)
+--> [슬라이드되는 Bottom Navigation Bar 만드는 나만의 라이브러리](https://choheeis.github.io/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C/2020/03/01/BottomNavigationSwipe.html)
 
 ![BottomNavigationWithViewPager](./resource/gif/BottomNavigationWithViewPager.gif)
+
+<br>
+
+## 💜 Material Design 적용시키기
+
+--> [Material Design 적용시키는 나만의 라이브러리](https://choheeis.github.io/android/2020/04/06/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EB%A8%B8%ED%84%B0%EB%A6%AC%EC%96%BC-%EB%94%94%EC%9E%90%EC%9D%B81.html)
+
+![MateriaDesignl](./resource/gif/MaterialDesign.gif)
 
 <br>
 
