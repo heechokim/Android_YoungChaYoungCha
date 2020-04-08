@@ -32,7 +32,7 @@
 
 --> [Bottom Navigation 만드는 나만의 라이브러리](https://choheeis.github.io/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C/2020/03/01/BottomNavigation.html)
 
-![bottomNavigation](./resource/gif/bottomNavigation3.gif)
+![bottomNavigation](./resource/gif/BottomNavigation3.gif)
 
 <br>
 
