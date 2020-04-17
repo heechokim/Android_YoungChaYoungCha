@@ -67,7 +67,7 @@
 
 --> [Selector 만드는 나만의 라이브러리](https://choheeis.github.io/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C/2020/04/15/Selector.html)
 
-![MateriaDesign](./resource/gif/Selector.gif)
+![selector](./resource/gif/selector.gif)
 
 > 프로젝트 명 : [Selector](https://github.com/choheeis/Android_YoungChaYoungCha/tree/master/Selector)
 
