@@ -76,3 +76,11 @@
 ## 🥕 앱 리소스(App Resource) 에 대해서
 
 --> [안드로이드 프로젝트 중 res 폴더에 대한 고찰!](https://choheeis.github.io/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C/2020/04/16/AppResource.html)
+
+<br>
+
+## 💼 초희의 Room(로컬 데이터베이스) 사용기
+
+--> [초희의 Room 사용기](https://choheeis.github.io/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C/2020/04/17/Room.html)
+
+<br>
