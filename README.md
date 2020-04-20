@@ -1,4 +1,4 @@
-# 🌷 초희 표 Android 개발 라이브러리 🌷
+# 🌱 초희 표 Android 개발 라이브러리 🌱
 
 > 난 진짜 안드로이드 장인이 되어야겠다! 안되겠다!!!! 그 날까지 영차영차!!!!
 
@@ -72,3 +72,7 @@
 > 프로젝트 명 : [Selector](https://github.com/choheeis/Android_YoungChaYoungCha/tree/master/Selector)
 
 <br>
+
+## 🥕 앱 리소스(App Resource) 에 대해서
+
+--> [안드로이드 프로젝트 중 res 폴더에 대한 고찰!](https://choheeis.github.io/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C/2020/04/16/AppResource.html)
