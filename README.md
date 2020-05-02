@@ -73,10 +73,18 @@
 
 <br>
 
-## 💼 초희의 Room(로컬 데이터베이스) 사용기
+## 💼 Room(로컬 데이터베이스) 사용기
 
---> [초희의 Room 사용기](https://choheeis.github.io/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C/2020/04/17/Room.html)
+--> [Room 사용기](https://choheeis.github.io/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C/2020/04/17/Room.html)
 
 > 프로젝트 명 : [Room](https://github.com/choheeis/Android_YoungChaYoungCha/tree/master/Room)
+
+<br>
+
+## 🍏 Modal Bottom Sheet 만드는 나만의 라이브러뤼~
+
+--> [Modal Bottom Sheet 만드는 나만의 라이브러뤼~](https://choheeis.github.io/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C/2020/05/02/BottomSheet.html)
+
+> 프로젝트 명 : [BottomSheet](https://github.com/choheeis/Android_YoungChaYoungCha/tree/master/BottomSheet)
 
 <br>
