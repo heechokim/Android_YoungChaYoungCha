@@ -85,6 +85,8 @@
 
 --> [Modal Bottom Sheet 만드는 나만의 라이브러뤼~](https://choheeis.github.io/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C/2020/05/02/BottomSheet.html)
 
+![BottomSheet](./resource/gif/BottomSheet.gif)
+
 > 프로젝트 명 : [BottomSheet](https://github.com/choheeis/Android_YoungChaYoungCha/tree/master/BottomSheet)
 
 <br>
