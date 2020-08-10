@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/favorite"
+        android:icon="@drawable/icon_favorite"
+        android:title="favorite"
+        android:contentDescription="This is a favorite button"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/icon_search"
+        android:title="search"
+        android:contentDescription="This is a search button"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/icon_more"
+        android:title="more"
+        android:contentDescription="This is a more button"
+        app:showAsAction="never"/>
+
+</menu>
