@@ -100,3 +100,13 @@
 > 프로젝트 명 : [AppBar](https://github.com/choheeis/Android_YoungChaYoungCha/tree/master/AppBar)
 
 <br>
+
+## 🐤 ViewPager2로 화면 슬라이드 기능 만드는 나만의 라이브러뤼~
+
+--> [ViewPager2로 화면 슬라이드 기능 만드는 나만의 라이브러뤼~](https://choheeis.github.io/newblog//articles/2020-08/ViewPager2)
+
+![ViewPager2](./resource/gif/ViewPager2.gif)
+
+> 프로젝트 명 : [ViewPager2](https://github.com/choheeis/Android_YoungChaYoungCha/tree/master/ViewPager2)
+
+<br>
