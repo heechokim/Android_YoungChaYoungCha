@@ -110,3 +110,13 @@
 > 프로젝트 명 : [ViewPager2](https://github.com/choheeis/Android_YoungChaYoungCha/tree/master/ViewPager2)
 
 <br>
+
+## 🐤 Tab 만들기와 Tab을 ViewPager에 연결하는 나만의 라이브러뤼~ 
+
+--> [Tab 만들기와 Tab을 ViewPager에 연결하는 나만의 라이브러뤼~ ](https://choheeis.github.io/newblog//articles/2020-08/Tab)
+
+![TabWithViewPager](./resource/gif/TabWithViewPager.gif)
+
+> 프로젝트 명 : [TabWithViewPager](https://github.com/choheeis/Android_YoungChaYoungCha/tree/master/ViewPager2)
+
+<br>
