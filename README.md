@@ -117,6 +117,6 @@
 
 ![TabWithViewPager](./resource/gif/TabWithViewPager.gif)
 
-> 프로젝트 명 : [TabWithViewPager](https://github.com/choheeis/Android_YoungChaYoungCha/tree/master/ViewPager2)
+> 프로젝트 명 : [TabWithViewPager](https://github.com/choheeis/Android_YoungChaYoungCha/tree/master/TabWithViewPager)
 
 <br>
