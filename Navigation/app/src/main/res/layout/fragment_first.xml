@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentFirst"
+    android:id="@+id/fragment_first">
+
+    <TextView
+        android:id="@+id/textView_first"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:background="#FFC2C2"
+        android:text="첫 번째 프래그먼트 (화면을 터치하면 다음 화면으로 탐색됩니다)"/>
+
+</FrameLayout>
