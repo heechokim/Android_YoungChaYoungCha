@@ -15,7 +15,10 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
+    }
 
+    override fun onStart() {
+        super.onStart()
         binding.ivPicture.setOnClickListener {
             Toast.makeText(this, "토스트!", Toast.LENGTH_SHORT).show()
         }
