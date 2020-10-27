@@ -8,9 +8,8 @@ import com.example.databinding.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+
+        val binding: ActivityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main)
+        binding.user = User("Chohee", "Kim")
     }
 }
-
-//        val binding: ActivityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main)
-//        binding.user = User("Chohee", "Kim")
