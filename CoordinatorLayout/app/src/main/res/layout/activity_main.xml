@@ -16,7 +16,8 @@
             app:navigationIcon="@drawable/ic_menu"
             app:title="툴바 예시"
             app:menu="@menu/tool_bar"
-            style="@style/Widget.MaterialComponents.Toolbar.Primary"/>
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            app:layout_scrollFlags="scroll|snap|enterAlways"/>
 
     </com.google.android.material.appbar.AppBarLayout>
 
