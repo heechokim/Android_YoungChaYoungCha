@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            app:title="Kimchohee"
+            app:expandedTitleMarginStart="78dp"
+            app:expandedTitleMarginBottom="22dp"
+            app:expandedTitleTextAppearance="@style/TextAppearance.App.CollapsingToolbar.Expanded"
+            app:collapsedTitleTextAppearance="@style/TextAppearance.App.CollapsingToolbar.Collapsed">
+
+            <ImageView
+                android:id="@+id/iv_heart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_city"/>
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/material_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                app:menu="@menu/top_app_bar"
+                app:navigationIcon="@drawable/ic_hamburger"
+                android:elevation="0dp"
+                android:background="@android:color/transparent"
+                style="@style/Widget.MaterialComponents.Toolbar.Primary"/>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_1"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_width="0dp"
+                android:layout_height="300dp"
+                android:text="안녕~1"
+                android:background="#99F496"/>
+            <TextView
+                android:id="@+id/tv_2"
+                app:layout_constraintTop_toBottomOf="@+id/tv_1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_width="0dp"
+                android:layout_height="300dp"
+                android:text="안녕~2"
+                android:background="#FFEBBA"/>
+            <TextView
+                android:id="@+id/tv_3"
+                app:layout_constraintTop_toBottomOf="@+id/tv_2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_width="0dp"
+                android:layout_height="300dp"
+                android:text="안녕~3"
+                android:background="#BCEFFF"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
