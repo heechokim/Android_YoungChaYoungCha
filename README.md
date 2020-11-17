@@ -130,3 +130,13 @@
 > 프로젝트 명 : [Navigation](https://github.com/choheeis/Android_YoungChaYoungCha/tree/master/Navigation)
 
 <br>
+
+## 1️⃣4️⃣ CollapsingToolbarLayout을 사용하여 위로 뭉개지는 AppBar 구현하기~
+
+--> [CollapsingToolbarLayout을 사용하여 위로 뭉개지는 AppBar 구현하기~](https://choheeis.github.io/newblog//articles/2020-10/AppBar)
+
+![collapsingToolbarLayout](./resource/gif/CollapsingToolbar4.gif)
+
+> 프로젝트 명 : [CollapsingToolbar](https://github.com/choheeis/Android_YoungChaYoungCha/tree/master/CollapsingToolbar)
+
+<br>
