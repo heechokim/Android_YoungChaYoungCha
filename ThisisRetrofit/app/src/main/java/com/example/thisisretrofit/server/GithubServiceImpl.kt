@@ -12,8 +12,12 @@ object GithubServiceImpl {
         .addConverterFactory(GsonConverterFactory.create())
         .build()
 
+    // GithubService는 Request 메소드들을 작성해놓은 인터페이스.
     val service: GithubService = retrofit.create(GithubService::class.java)
 
-
 }
+
+
+
+
 
