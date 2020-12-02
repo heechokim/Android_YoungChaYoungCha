@@ -145,7 +145,7 @@
 
 --> [FCM 사용해서 메시지 전송하기](https://choheeis.github.io/newblog//articles/2020-11/firebase-cloud-messaging)
 
-![FCM](./resource/gif/FCM)
+![FCM](./resource/gif/FCM.png)
 
 > 프로젝트 명 : [FCM](https://github.com/choheeis/Android_YoungChaYoungCha/tree/master/FCM)
 
